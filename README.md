@@ -33,7 +33,7 @@ By default waf script will install:
 You can specify your own path to install using the ``--prefix`` flag (see ``python waf --help`` for help). In the case of import error in python due to missing DLLs, use Dependency Walker to find out missing dependencies.
 
 
-## Prebuilt libraray
+## Prebuilt library
 
 essentia.lib 750MB
 https://drive.google.com/file/d/1qtwMW-D94za2lG65r5KcWhW-XTCPBrhl/view?usp=sharing
