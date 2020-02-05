@@ -33,16 +33,7 @@ By default waf script will install:
 You can specify your own path to install using the ``--prefix`` flag (see ``python waf --help`` for help). In the case of import error in python due to missing DLLs, use Dependency Walker to find out missing dependencies.
 
 
-## Building dependencies
+## Prebuilt libraray
 
-We provide pre-build binaries for the required dependencies, but you can build them on your own. The waf build script expects dependencies to be inside the ```packaging\win32_3rdparty\``` folder. 
-
-To build dependencies yourself, install the pre-requisites.
-- Install MSYS2: http://www.msys2.org/
-- Install Yasm: download the yasm-*.exe file, rename to yasm.exe and copy to ``C:\workspace`` (required by FFmpeg)
-- Install cmake: https://cmake.org/ (required by taglib)
-
-- Open "x86 Native Tools Command Prompt for VS 2017" and from this terminal open the Msys2 terminal (use the following flags to inherit %PATH% variable): ``C:\msys64\msys2_shell.cmd -msys -use-full-path``
-- Install pre-requisites in MSYS2 terminal: ``pacman -S tar make gcc diffutils --noconfirm``
-- Go to the root Essentia folder (``cd /c/`` to access C:)
-- Run ``./packaging/build_3rdparty_msvc_win32.sh`` to build all dependencies
+essentia.lib 750MB
+https://drive.google.com/file/d/1qtwMW-D94za2lG65r5KcWhW-XTCPBrhl/view?usp=sharing
