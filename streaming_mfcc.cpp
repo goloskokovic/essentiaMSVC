@@ -45,9 +45,9 @@ int main(int argc, char* argv[]) {
   Pool pool;
 
   /////// PARAMS //////////////
-  Real sampleRate = 44100.0;
-  int frameSize = 2048;
-  int hopSize = 1024;
+  int sampleRate = 16000;
+	int frameSize = 2048;
+	int hopSize = 1024;
 
   // we want to compute the MFCC of a file: we need the create the following:
   // audioloader -> framecutter -> windowing -> FFT -> MFCC -> PoolStorage
